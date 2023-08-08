@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake&LadderGame", "Snake&L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{36AB9E2B-30F3-4E51-9189-44854F086421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting", "RateLimiting\RateLimiting.csproj", "{F69F4973-2F2E-4B38-9083-9E37CB9B024D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimiting", "RateLimiting\RateLimiting.csproj", "{F69F4973-2F2E-4B38-9083-9E37CB9B024D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem", "ElevatorSystem\ElevatorSystem.csproj", "{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F69F4973-2F2E-4B38-9083-9E37CB9B024D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F69F4973-2F2E-4B38-9083-9E37CB9B024D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F69F4973-2F2E-4B38-9083-9E37CB9B024D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
