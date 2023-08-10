@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimiting", "RateLimiting\RateLimiting.csproj", "{F69F4973-2F2E-4B38-9083-9E37CB9B024D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem", "ElevatorSystem\ElevatorSystem.csproj", "{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSystem", "ElevatorSystem\ElevatorSystem.csproj", "{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem", "ATMSystem\ATMSystem.csproj", "{780787AB-5CF4-4CF3-A8E9-77B4ABA389D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864DAC97-71B4-4159-9529-4F9AAC9FCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780787AB-5CF4-4CF3-A8E9-77B4ABA389D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780787AB-5CF4-4CF3-A8E9-77B4ABA389D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780787AB-5CF4-4CF3-A8E9-77B4ABA389D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780787AB-5CF4-4CF3-A8E9-77B4ABA389D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
