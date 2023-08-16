@@ -1,4 +1,6 @@
-﻿namespace CricBuzz.Team
+﻿using CricBuzz.Team.Player;
+
+namespace CricBuzz.Team
 {
     public class Team
     {
@@ -61,7 +63,7 @@
         public void printBattingScoreCard()
         {
 
-            for (PlayerDetails playerDetails : playing11)
+            foreach (PlayerDetails playerDetails in playing11)
             {
                 playerDetails.printBattingScoreCard();
             }
@@ -70,7 +72,7 @@
         public void printBowlingScoreCard()
         {
 
-            for (PlayerDetails playerDetails : playing11)
+            foreach (PlayerDetails playerDetails in playing11)
             {
                 if (playerDetails.bowlingScoreCard.totalOversCount > 0)
                 {
@@ -82,7 +84,7 @@
         public int getTotalRuns()
         {
             int totalRun = 0;
-            for (PlayerDetails player :  playing11)
+            foreach (PlayerDetails player in  playing11)
             {
 
                 totalRun += player.battingScoreCard.totalRuns;

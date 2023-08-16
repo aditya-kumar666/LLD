@@ -1,4 +1,6 @@
-﻿namespace CricBuzz.Team.Player
+﻿using CricBuzz.Team.Player.Score;
+
+namespace CricBuzz.Team.Player
 {
     public class PlayerDetails
     {

@@ -1,11 +1,14 @@
-﻿namespace CricBuzz.Team
+﻿using CricBuzz.Innings;
+using CricBuzz.Team.Player;
+
+namespace CricBuzz.Team
 {
     public class Wicket
     {
         public WicketType wicketType;
         public PlayerDetails takenBy;
-        public OverDetail overDetail;
-        public BallDetail ballDetail;
+        public OverDetails overDetail;
+        public BallDetails ballDetail;
 
         public Wicket(WicketType wicketType, PlayerDetails takenBy, OverDetails overDetail, BallDetails ballDetail)
         {
