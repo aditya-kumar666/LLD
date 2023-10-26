@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine", "VendingMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentalSystem", "CarRentalSystem\CarRentalSystem.csproj", "{8DF4D03D-E44B-4F11-9A8C-102596BAA957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricBuzz", "CricBuzz\CricBuzz.csproj", "{A0FD6060-8AE7-4B13-B177-3EB685D7D871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CricBuzz", "CricBuzz\CricBuzz.csproj", "{A0FD6060-8AE7-4B13-B177-3EB685D7D871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow", "BookMyShow\BookMyShow.csproj", "{A28C5FE9-60F6-4642-9D22-A929EDDA3864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A0FD6060-8AE7-4B13-B177-3EB685D7D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FD6060-8AE7-4B13-B177-3EB685D7D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FD6060-8AE7-4B13-B177-3EB685D7D871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28C5FE9-60F6-4642-9D22-A929EDDA3864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28C5FE9-60F6-4642-9D22-A929EDDA3864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28C5FE9-60F6-4642-9D22-A929EDDA3864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28C5FE9-60F6-4642-9D22-A929EDDA3864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
