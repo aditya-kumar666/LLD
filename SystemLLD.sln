@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingLot", "ParkingLot\Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflow", "StackOverflow\StackOverflow.csproj", "{1D31CF5E-7296-429D-B67C-2DC5B9A2A989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPattern-FileSystem", "CompositeDesignPattern-FileSystem\CompositeDesignPattern-FileSystem.csproj", "{F8558C41-C425-4193-B2E8-BC1D6367FDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDesignPattern-FileSystem", "CompositeDesignPattern-FileSystem\CompositeDesignPattern-FileSystem.csproj", "{F8558C41-C425-4193-B2E8-BC1D6367FDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{BDC85B7B-1D10-4205-A2C7-0923B24D6C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{F8558C41-C425-4193-B2E8-BC1D6367FDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8558C41-C425-4193-B2E8-BC1D6367FDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8558C41-C425-4193-B2E8-BC1D6367FDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC85B7B-1D10-4205-A2C7-0923B24D6C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC85B7B-1D10-4205-A2C7-0923B24D6C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC85B7B-1D10-4205-A2C7-0923B24D6C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC85B7B-1D10-4205-A2C7-0923B24D6C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
