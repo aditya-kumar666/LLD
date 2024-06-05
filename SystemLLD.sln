@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern-Pizz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{16707F17-4369-473D-B14E-B003E5797C28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPattern", "ProxyDesignPattern\ProxyDesignPattern.csproj", "{1AA093BA-100D-400D-80EF-2A088CF7965A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{16707F17-4369-473D-B14E-B003E5797C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16707F17-4369-473D-B14E-B003E5797C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16707F17-4369-473D-B14E-B003E5797C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA093BA-100D-400D-80EF-2A088CF7965A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA093BA-100D-400D-80EF-2A088CF7965A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA093BA-100D-400D-80EF-2A088CF7965A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA093BA-100D-400D-80EF-2A088CF7965A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{F7D8688F-C956-4F78-96A1-F01861D3AC85} = {CDA5B66A-4C6B-4B48-9829-BEF9DE9A8FC6}
 		{0BB33D38-B06C-4500-8A48-78F06FC3B97A} = {CDA5B66A-4C6B-4B48-9829-BEF9DE9A8FC6}
 		{16707F17-4369-473D-B14E-B003E5797C28} = {CDA5B66A-4C6B-4B48-9829-BEF9DE9A8FC6}
+		{1AA093BA-100D-400D-80EF-2A088CF7965A} = {CDA5B66A-4C6B-4B48-9829-BEF9DE9A8FC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D71A7E11-774E-4D5F-9A0E-733CF11E631F}
