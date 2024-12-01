@@ -1,6 +1,6 @@
 ﻿namespace DecoratorDesignPattern_PizzaOrder
 {
-    internal class Mushroom : BasePizza
+    internal class Mushroom : ToppingDecorator
     {
         BasePizza basePizza;
         public Mushroom(BasePizza bp)

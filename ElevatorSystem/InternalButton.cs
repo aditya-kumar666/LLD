@@ -1,4 +1,5 @@
-﻿namespace ElevatorSystem
+﻿
+namespace ElevatorSystem
 {
     public class InternalButton
     {
