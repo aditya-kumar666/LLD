@@ -35,6 +35,17 @@ public class FileSystemManager
         _usedCapacity += size;
     }
 
+    public void CreateDirectory(string path, string dirName)
+    {
+        var parent = NavigateToPath(path);
+
+        if (parent.Children.ContainsKey(dirName))
+            throw new ArgumentException("Directory already exists.");
+
+        parent.Children[dirName] = new DirectoryItem(dirName);
+    }
+
+
     public void DeleteFile(string path, string name)
     {
         var targetDir = NavigateToPath(path);

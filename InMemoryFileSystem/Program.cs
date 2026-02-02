@@ -15,9 +15,12 @@ namespace InMemoryFileSystem
 
             Console.WriteLine("Available Memory: " + fs.GetAvailableMemory());
 
+            fs.CreateDirectory("/", "images");
+
             // Create files at root
             fs.CreateFile("/", "file1.txt", 200);
             fs.CreateFile("/", "data.log", 300);
+            fs.CreateFile("/images", "file1.txt", 200);
 
             Console.WriteLine("\nRoot Folder:");
             foreach (var item in fs.ListFolder("/"))
