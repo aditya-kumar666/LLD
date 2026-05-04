@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTokenSystem", "BankToke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryFileSystem", "InMemoryFileSystem\InMemoryFileSystem.csproj", "{30066C07-4D25-4A80-A898-A44268324E74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceManagementSystem", "AttendanceManagementSystem\AttendanceManagementSystem.csproj", "{B6E2F5C5-9335-43FA-BC2B-8611301C92C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{30066C07-4D25-4A80-A898-A44268324E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30066C07-4D25-4A80-A898-A44268324E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30066C07-4D25-4A80-A898-A44268324E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E2F5C5-9335-43FA-BC2B-8611301C92C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E2F5C5-9335-43FA-BC2B-8611301C92C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E2F5C5-9335-43FA-BC2B-8611301C92C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E2F5C5-9335-43FA-BC2B-8611301C92C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
